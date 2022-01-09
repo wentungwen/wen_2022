@@ -6931,7 +6931,7 @@ section.ui-block-25 {
     height: 55px;
     width: 55px;
     line-height: 55px;
-    background-color: #55ACEE;
+    background-color: #00CBC2;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
@@ -6957,7 +6957,7 @@ section.ui-block-25 {
 }
 
 .ui-block-38.about .main-color {
-    color: #55ACEE;
+    color: #00CBC2;
 }
 
 @media screen and (max-width:991px) {
@@ -18101,7 +18101,7 @@ section.ui-block-25 {
     font-weight: 400;
 }
 
-.ui-block-13.blog .main-color{color: #55ACEE;}
+.ui-block-13.blog .main-color{color: #00CBC2;}
 
 .ui-block-13.blog .paragraph{
     font-family: 'Roboto', sans-serif;
@@ -18119,9 +18119,9 @@ section.ui-block-25 {
 
 .ui-block-13.blog .btn.btn-rounded {border-radius: 50px;}
 
-.ui-block-13.blog .btn.btn-blue {background: #55ACEE; border-color: #55ACEE; color: #ffffff}
+.ui-block-13.blog .btn.btn-blue {background: #00CBC2; border-color: #00CBC2; color: #ffffff}
 
-.ui-block-13.blog .btn.btn-blue:hover, .btn.btn-blue:focus {background: transparent !important; border-color: #55ACEE; color: #55ACEE !important}
+.ui-block-13.blog .btn.btn-blue:hover, .btn.btn-blue:focus {background: transparent !important; border-color: #00CBC2; color: #00CBC2 !important}
 
 @media screen and (max-width:991px){
     .ui-block-13.blog .heading-area{
@@ -19001,7 +19001,7 @@ section.ui-block-25 {
 }
 
 .ui-block-01.team-sec .social-icon-bg-hvr a:hover i.fa-facebook-f {background-color: #3B5998;}
-.ui-block-01.team-sec .social-icon-bg-hvr a:hover i.fa-twitter {background-color: #55ACEE;}
+.ui-block-01.team-sec .social-icon-bg-hvr a:hover i.fa-twitter {background-color: #00CBC2;}
 .ui-block-01.team-sec .social-icon-bg-hvr a:hover i.fa-linkedin-in {background-color: #0976B4;}
 
 .ui-block-01.team-sec h1, .ui-block-01.team-sec h2, .ui-block-01.team-sec h3, .ui-block-01.team-sec h4, .ui-block-01.team-sec h5, .ui-block-01.team-sec h6 {
@@ -19493,8 +19493,8 @@ section.ui-block-25 {
 
 .ui-block-03.team-sec ul.social_icon li a.twitter:hover,
 .ui-block-03.team-sec ul.social_icon li a.twitter:focus {
-    background: #55acee;
-    border-color: #55acee;
+    background: #00CBC2;
+    border-color: #00CBC2;
 }
 
 .ui-block-03.team-sec ul.social_icon li a.insta:hover,
@@ -20080,8 +20080,8 @@ section.ui-block-25 {
 
 .ui-block-05.team-sec ul.social_icon li a.twitter:hover,
 .ui-block-05.team-sec ul.social_icon li a.twitter:focus {
-    background: #55acee;
-    border-color: #55acee;
+    background: #00CBC2;
+    border-color: #00CBC2;
 }
 
 .ui-block-05.team-sec ul.social_icon li a.insta:hover,
@@ -27517,7 +27517,7 @@ section,.section-padding {position: relative;padding: 7.5rem 0;overflow: hidden;
 }
 
 .ui-block-02.footer ul.footer-icon li.twit a:before{
-    background: #55acee;
+    background: #00CBC2;
 }
 
 .ui-block-02.footer ul.footer-icon li.in a:before {
