@@ -43,7 +43,7 @@
         class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line bg-white"
       >
         <div class="container">
-          <a href="./index.html" title="Logo" class="logo">
+          <a href="./index.html" title="Logo" class="logo no-shadow">
             <!--Logo Default-->
             <img src="img/logo.png" alt="logo" class="logo-dark" />
           </a>
@@ -131,14 +131,13 @@
               <!--Post Meta-->
               <div class="post-details alt-font">
                 <span class="post-date main-color">
-                  August-September, 2021</span
+                  September-October, 2021</span
                 >
               </div>
 
               <h2 class="post-title no-margin">
                 <a href="javascript:void(0);" rel="bookmark"
-                  >Create a historical climate data site for public educational
-                  purposes.</a
+                  >Integrate the regularly-used systems for forecasters to deal with daily tasks</a
                 >
               </h2>
               <div class="address-item">
@@ -147,9 +146,7 @@
                   <div class="content">
                     <h6 class="main-color m-0">Goal</h6>
                     <p>
-                      Build an informative website without drowning the user in
-                      a data tsunami while providing the best information
-                      available to get actionable insights.
+                      Integrate five systems in the Taiwan Climate section, which is the most-used part of the CMF, into a more functional and efficient system.
                     </p>
                   </div>
                 </li>
@@ -158,120 +155,80 @@
                   <div class="content">
                     <h6 class="main-color m-0">Challenge</h6>
                     <p>
-                      Storytelling should become a primary focus in this project
-                      because displaying all data is inappropriate. And it turns
-                      to a question: how can we use storytelling to put data
-                      into context and simultaneously achieve informative and
-                      understandable experiences?
+                      How to balance both the user and developer sides by dealing with more than fifty different formats and data sources?
                     </p>
                   </div>
                 </li>
               </div>
 
-              <div class="post-content">
-                <h3>Define the target audience through empathy interviews</h3>
-
-                <p>
-                  The client provided a wireframe that defines the conceptual
-                  functions and the target audience - someone with
-                  meteorological majors, but I was concerned about the product
-                  feasibility and the questionable definition of the target
-                  user. The initial target audience was those with
-                  meteorological backgrounds who used the historical climate
-                  data to conduct research.
-                </p>
-                <div class="row mb-4">
-                  <div class="col-lg-4">
-                    <img src="./img/cmf2/img1.png" alt="" />
-                  </div>
-                  <div class="col-lg-4">
-                    <img src="./img/cmf2/img2.png" alt="" />
-                  </div>
-                  <div class="col-lg-4">
-                    <img src="./img/cmf2/img3.png" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div class="post-content">
-                <h3>What kind of interaction they love?</h3>
-                <p>
-                  After completing a focus group, I discovered that professional
-                  people couldn't be considered as our target audience since
-                  they have multiple channels to get open data. Thus,<strong>
-                    I reset the primary users to the general public, interested
-                    in meteorology for personal interests, educating, research,
-                    or product development needs, but lack the specialized
-                    knowledge to interpret data.</strong
-                  >
-                  Based on the previous wireframe, I developed two possible
-                  types of applications and conducted a focus group: Image-based
-                  or text-based. The former is heavily graph-based, like the
-                  NASA climate change website, while the latter is more
-                  informative, like Japan Meteorological Agency.
-                </p>
-                <div class="row mb-4">
-                  <div class="col-lg-6">
-                    <img src="./img/cmf2/img4.png" alt="" />
-                  </div>
-                  <div class="col-lg-6">
-                    <img src="./img/cmf2/img5.png" alt="" />
-                  </div>
-                </div>
-                <h4>Insight</h4>
-                <p>
-                  I found out the users prefer comprehensible information, not "data," such as moderate interactive features with some guidance. Namely, displaying too much data and functions in one application is unbearable. They also spent significantly more time on NASA's due to the more attractive images and animations. <br> 
-(Four interviewees, 24-49 years)
-                </p>
-             
-                <h4>Communicating information by lowering the flexibility during the interaction</h4>
-                <p>To avoid bombarding users with information, I reduced the flexibility of operation by filtering those functions that users can use intuitively. I displayed details separately by spliting the parameters into different pages, including rainfall and temperature.</p>
-              </div>
-
-              <div class="post-content">
-                <div class="row">
-                  <div class="col-lg-4"> <h3>Re-examine the wireframe based on the insights above</h3>
-                    <p>Some potential problems may cause concerns. For example, the complicated functions could result in bad user experiences because the confused searching process and attribute settings could cause higher bounce rate. Furthermore, the time limit makes it hard to develop the functions and conduct complete testing thoroughly.</p></div>
-                  <div class="col-lg-8 no-shadow">
-                    <img src="./img/cmf2/img6.png" alt="">
-                  </div>
-                </div>
-               
-              </div>
-
-              <div class="post-content">
-                <h3>Creating a product's concept that triggers people's interest</h3>
-                <p>After considering several wireframes, we finally reached a consensus by presenting high-resolution images and detailed information in the product. In the end, I selected 3-5 attributes for the basic setting to animate a simple bar chart and integrated the text, graphs, and histograms on the same page to achieve comprehensible information.</p>
-                <div class="row">
-                  <div class="col-lg-6"><img src="./img/cmf2/img7.png" alt=""></div>
-                  <div class="col-lg-6"><img src="./img/cmf2/img8.png" alt=""></div>
-                </div>
-              </div>
               <div class="post-content no-shadow">
-                <h3>Mockup</h3>
-                <div class="row">
-                  <div class="col-lg-2 no-shadow">
-                    <img src="./img/cmf2/img10.png" alt="">
-                  </div>
-                  <div class="col-lg-10">
-                    <img src="./img/cmf2/img9.png" alt="">
-                  </div>
-                </div>
-              
-                <ol class="mt-5">
-                  <li>A flexible sidebar allows new features adding in the future.</li>
-                  <li>Several basic setting remains in the application only.</li>
-                  <li>Design a simple carousel animation with essential functions to increase interaction.</li>
-                  <li>Bar chart complement to transfer the complete climate information.</li>
-                  <li>Switch different time dimensions with arrow buttons.</li>
-                  <li>The tiny chart visualizes key statistics and presents them reasonably.</li>
-                </ol>
+                <h3>Mining usage insights and summarizing a suitable solution</h3>
+                
+                <p>I initially selected several commonly-used systems from a hundred systems in the CMF, then conducted a focus group with several forecasters to confirm the actual needs.
+                  After conducting in-depth interviews, I dug out the most common approach they used while dealing with their routine reports: The users tend to spot the phenomenon on the graphs, confirm precise data in tables, and look up other graph types for details.</p>
+                  <br>
+                  <h4>INSIGHT</h4>
+                  <p>Like most UX designers, I always believe in evidence-based design and persue value-oriented products, but my marketing background adds a bit different to my design plans. <br>
+                    UX researchers and marketing strategists work similarly in process and methodology but slightly different. Strategists will set up the likely hypothesis based mainly on the quantitative study while the UX research verifies the ideas repeatedly based on qualitative research. </p>
+                    <br>
+                    <img src="./img/cmf3/img1.png" alt="">
+                    <p class="text-center mt-2">The system I initially selected from the CMF.</p>
+
               </div>
               <div class="post-content">
-                <h3>Result</h3>
-                <p>Although some of the functions are removed, the clients are thrilled by this highly interactive data-based website. It is also a valuable experience for me to construct the design and usability study through distilling and to synthesize user research insights. In addition, some data-side problems appeared when the developers put it into the codes, which delayed the progress a bit because of the inadequate communication. Therefore, I learned a lot of communicational techniques from this case, including well-written delivery documents and careful verbal confirmation, which are the most precious experience.</p>
+                <h3>CHALLENGE- Resolve tangled data sources and systemize them into a reasonable flow</h3>
+                <div class="row">
+                  
+                  <div class="col-lg-6">
+                    <p>My second task was to overcome the various data sources, which became the most challenging task I have ever met. In this case, taking engineering as the second priority is inevitable, especially in a heavy data-based product. I was pretty frustrated at first since I was the only designer here. Without any partner, I tried to ask for helps from the social communities. <br><br> Thankfully, I listed and compared all the data sources and made the final decision successfully in the end. My front-end technique also improved while discussing the feasibility with engineers back and forth.</p>
+                  </div>
+                  <div class="col-lg-6">
+                    <img src="./img/cmf3/img2.png" alt="">
+                    <img src="./img/cmf3/img3.png" class="mt-3" alt="">
+                  </div>
+                </div>
+
               </div>
-              <div class="post-content"></div>
-              
+              <div class="post-content">
+                <h3>Refer to the original order to distinguish the query menu</h3>
+                <p>Usage patterns in the system are often repetitive, so every click is significant. I made multiple adjustments according to the user's pain points, minimized per click on every action, and optimized the hierarchy of settings and inputs.</p>
+
+
+                <div class="row">
+                  <div class="col-lg-9 no-shadow">
+                    <img src="./img/cmf3/img4.png" alt="">
+                  </div>
+                  <div class="col-lg-3 work-list">
+                    <ol>
+                      <li>Topbar is for the timescale set.</li>
+                      <li>The main menu sets the essential searching attributes like location, statistics, and period.</li>
+                      <li>Tabs decide the form of graphs, and user can easily switch over them.</li>
+                      <li>Sub-menu is for setting the details of the specific attribute.</li>
+                      <li>The customized menu includes style setting and download.</li>
+                      <li>As for the graph area, I carefully ensured the correctness of the final product with developers and clients.</li>
+                    </ol>
+                  </div>
+                </div>
+
+                
+              </div>
+              <div class="post-content ">
+                <h3>Adding value to informative charts by well-designed data</h3>
+                <div class="row">
+                  <div class="col-lg-6 mb-4">
+                    <p>Unlike the charts with rigid style before, users now can customize attributes to fit the charts in their presentation. Despite all above, I'm also looking forward to adding extra value to the product by presenting the specific metrics in a readable and delightful way. Apart from minor data issues, most forecasters were very surprised by the smoothly-use feeling and gave us positive feedbacks.</p>
+                    <img src="./img/cmf3/img6.png" class="mb-4" alt="">
+                    <img src="./img/cmf3/img8.png" alt="">
+                  
+                  </div>
+                  <div class="col-lg-6">
+                    <img src="./img/cmf3/img5.png" class="mb-4" alt="">
+                    <img src="./img/cmf3/img7.png" class="mb-4"  alt="">
+                    <img src="./img/cmf3/img9.png" alt="">
+                  </div>
+                </div>
+                
+              </div>
             </article>
 
             <!--Post Navigation-->
@@ -280,14 +237,14 @@
                 <div class="col-6">
                   <div class="post-previous">
                     <a
-                      href="/cmf1.html"
+                      href="/cmf2.html"
                       class="single-post-nav left d-flex align-items-center"
                     >
                       <i class="fa fa-angle-left"></i>
                       <div class="post-nav-content">
                         <p>Previous Post</p>
                         <h6>
-                          Design an informative dashboard in the CMF for all decision-makers to consume
+                          Create a historical climate data site for public educational purposes.
                         </h6>
                       </div>
                     </a>
@@ -296,13 +253,13 @@
                 <div class="col-6">
                   <div class="post-next">
                     <a
-                      href="/cmf3.html"
+                      href="/imd.html"
                       class="single-post-nav right d-flex align-items-center"
                     >
                       <div class="post-nav-content">
                         <p>Next Post</p>
                         <h6>
-                          Integrate the regularly-used systems for forecasters to deal with daily tasks
+                          Redesign the official website of the India Meteorological Department
                         </h6>
                       </div>
                       <i class="fa fa-angle-right"></i>

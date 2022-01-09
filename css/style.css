@@ -29,7 +29,7 @@
     margin: 3rem 0
 }
 .post-content{
-    margin-top: 6rem;
+    margin-top: 9rem;
 }
 
 .post-content h4{
@@ -64,6 +64,9 @@ p, ol li{
 }
 .no-shadow img{
     box-shadow: none
+}
+.bg-grey{
+    background-color: #f9f9f7;
 }
 
 /*  - Fonts
