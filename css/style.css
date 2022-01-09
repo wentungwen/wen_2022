@@ -42,11 +42,28 @@
 }
 
 .mb-lg{
-    margin-bottom: 6rem
+    margin-bottom: 7rem
 }
 
 .blog-btn{
     font-weight: 800;
+}
+.row{
+    margin-top: 4rem
+}
+img{
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.116)
+}
+
+.work-list ol li{
+    margin: 2rem 0
+
+}
+p, ol li{
+    font-weight: 400
+}
+.no-shadow img{
+    box-shadow: none
 }
 
 /*  - Fonts
