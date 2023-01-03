@@ -1,3 +1,8 @@
+
+.box-shadow-menu{
+    box-shadow: #00000024 1px 2px 14px 5px;
+}
+
 .bg-grey{
     background-color: #eef2f5;
 }
@@ -19,9 +24,7 @@
 .client-section{
    background: #f8faf9
 }
-.client-box{
-    background: #fff;
-}
+
 .post-thumbnail {
     display: flex;
     justify-content: center;
@@ -724,15 +727,17 @@ header a.logo img {
 }
 
 .client-box{
+    background: #fff;
     position: relative;
     padding: 30px;
     margin: 5px;
     border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 10px 1px rgba(145, 140, 145, 0.35);
-    box-shadow: 0px 0px 8px 1px rgba(145, 140, 145, 0.35);
+    box-shadow: #00000024 1px 1px 7px 1px;
+
 }
 
 .client-box i.q-icon{
+
     font-size: 30px;
     margin-bottom: 10px;
     color:#00CBC2;
@@ -836,10 +841,8 @@ header a.logo img {
     right: 0;
     z-index: -1;
 }
-
-.heading-box h2{
-    font-size: 80px;
-    line-height: 90px;
+.heading-box h2 {
+    font-size: 3rem;
     font-weight: 600;
     margin-bottom: 1.25rem;
 }
@@ -2260,7 +2263,7 @@ input.inputerror, textarea.inputerror, select.inputerror {
     }
 
     .heading-box h2 {
-        font-size: 3.5rem;
+        font-size: 2rem;
         line-height: 1.1;
     }
 
@@ -2313,6 +2316,10 @@ input.inputerror, textarea.inputerror, select.inputerror {
 
 @media screen and (max-width:767px){
 
+    .heading-area {
+        margin-bottom: 1rem!important;
+    }
+
     section{
         padding: 4.5rem 0;
     }
@@ -2352,5 +2359,11 @@ input.inputerror, textarea.inputerror, select.inputerror {
     }
     .side-menu {
         width: 380px;
+    }
+}
+
+@media screen and (max-width:465px){
+    h2{
+        font-size: 1.5rem;
     }
 }
