@@ -1,3 +1,15 @@
+.bg-grey{
+    background-color: #eef2f5;
+}
+
+.note{
+    border: 1px solid #d9d9d9;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+}
+
+
+
 .logo-dark{
     min-width: 50px;
 }
@@ -23,22 +35,27 @@
     border-bottom: 1px rgb(202, 202, 202) solid;
 }
 .divider-2{
-    margin: 2rem 0
+    margin: 2rem 0;
+    border-bottom: 1px rgb(202, 202, 202) solid;
 }
 .divider-3{
-    margin: 3rem 0
+    margin: 3rem 0;
+    border-bottom: 1px rgb(202, 202, 202) solid;
 }
 .post-content{
-    margin-top: 9rem;
+    margin-top: 3rem;
 }
 
 .post-content h4{
     font-size: 1.1rem;
     color:#008D86;
     margin: 1rem 0 0.6rem;
+    width: 100%;
+    font-weight: bold;
 }
 .post-content h3{
-    margin: 1.5rem 0
+    margin: 1.5rem 0;
+    font-weight: bold;
 }
 
 .mb-lg{
@@ -49,10 +66,13 @@
     font-weight: 800;
 }
 .row{
-    margin-top: 4rem
+    margin-top: 4rem;
+    margin-right: 0!important;
+    margin-left: 0!important;
 }
 img{
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.116)
+    margin: auto;
+    /* box-shadow: 0 1px 6px rgba(0, 0, 0, 0.116) */
 }
 
 .work-list ol li{
@@ -194,6 +214,9 @@ section{padding: 7.5rem 0;}
 .mx-570{
     max-width: 570px;
     display: inline-block;
+}
+.mx-900{
+    max-width: 900px;
 }
 
 /* ===================================
@@ -1672,7 +1695,7 @@ header a.logo img {
     font-size: 13px;
     line-height: 2;
     font-weight: 400;
-    color: #939393;
+    /* color: #939393; */
     margin-bottom: .8rem;
 }
 
