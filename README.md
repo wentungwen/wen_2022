@@ -1,7 +1,7 @@
 # It is Wen's UX portfolio.
-Link: https://wentungwen.github.io/wen_2022/ 
+Link: https://wentungwen.github.io 
 
-![Screenshot 2023-10-25 at 4 37 22 PM](https://github.com/wentungwen/wen_2022/assets/78141260/8c6beb15-c03d-4b7a-97b9-0e73f0c7aee2)
+![Screenshot 2023-10-25 at 4 37 22 PM](https://github.com/wentungwenassets/78141260/8c6beb15-c03d-4b7a-97b9-0e73f0c7aee2)
 
 
 ## Short introduction
