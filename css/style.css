@@ -1,6 +1,11 @@
+.gallery-img img{
+    margin-bottom: 1rem;
+    width: 100%;
+    box-shadow: #5f636a24 1px 1px 6px 3px;
+}
 
 .box-shadow-menu{
-    box-shadow: #00000024 1px 2px 14px 5px;
+    box-shadow: #5f636a24 1px 2px 14px 5px;
 }
 
 .bg-grey{
