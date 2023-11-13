@@ -1,3 +1,9 @@
+// lazyload
+document.addEventListener("DOMContentLoaded", function() {
+    var lazyLoadInstance = new LazyLoad();
+  });
+
+// about
 $(document).ready(function () {
   $("#art").hover(
     function () {
