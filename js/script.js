@@ -1,4 +1,5 @@
 // lazyload
+// https://www.jsdelivr.com/package/npm/vanilla-lazyload
 document.addEventListener("DOMContentLoaded", function() {
     var lazyLoadInstance = new LazyLoad();
   });
