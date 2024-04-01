@@ -406,12 +406,12 @@ section {
 }
 .btn.btn-transparent-black {
   background: transparent;
-  border-color: #2b2b2b;
-  color: #2b2b2b;
+  border-color: #a0a0a0;
+  color: #a0a0a0;
 }
 .btn.btn-transparent-black:hover,
 .btn.btn-transparent-black:focus {
-  background: #2b2b2b !important;
+  background: #a0a0a0 !important;
   color: #ffffff !important;
 }
 .btn.btn-black {
